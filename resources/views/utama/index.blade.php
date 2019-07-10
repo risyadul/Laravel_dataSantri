@@ -35,8 +35,8 @@
                                 <tbody>
                                     @foreach ($data_santri as $santri)
                                         <tr>
-                                            <td>{{$santri->tanggal}}</td>
-                                            <td class="btn btn-info">{{$santri->waktu}}</td>
+                                            <td><span class="label label-info">{{$santri->tanggal}}</span></td>
+                                            <td><span class="label label-info">{{$santri->waktu}}</span></td>
                                             <td>{{$santri->surah}}</td>
                                             <td>{{$santri->start_ayat}}</td>
                                             <td>{{$santri->end_ayat}}</td>

@@ -25,6 +25,7 @@ Route::group(['middleware' => 'auth'], function () {
     });  
     Route::get('/santri/{id}/delete', 'SantriController@delete');
     Route::get('/santri/{id}/edit', 'SantriController@edit');
+    Route::post('/santri/{id}/update', 'SantriController@update');
 });
 
     
